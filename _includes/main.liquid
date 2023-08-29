@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <link rel="stylesheet" href="https://guide.pdis.run/assets/main.css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <!-- <link rel="icon" type="image/png" href=""> -->
+    <title>
+      HEX Blog
+      {% if title %} | {{ title }}{% endif %}
+    </title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body class="ma5-l ma4-m ma3">
+    <skip-to>
+      <a href="#main" class="skip-to">跳至主要內容區</a>
+    </skip-to>
+    <header class="header mw8 mb5">
+      <a href="/">
+        <img
+          src="/assets/logo.svg"
+          alt="HEX"
+          width="200">
+      </a>
+    </header>
+    <main class="mw8 flex flex-wrap" id="main">
+      <div class="flex-auto measure-wide">
+        {{ content }}
+      </div>
+      <aside class="w5-l w-100 flex-shrink-0 pl5-l mt5-m">
+        <h2 class="f4 fw8 mb3">關於 HEX</h2>
+        HEX 為隸屬於 <a href="">PDIS</a> 下的一個工作小組。專為公家機關數位服務的韌性能力做努力。
+        <h2 class="f4 fw8 mb3 mt4">RSS</h2>
+        <a href="">親和力</a>
+      </aside>
+    </main>
+    <footer class="mw8 mt5">
+      HEX, of Public Digital Innovation Space
+    </footer>
+  </body>
+</html>

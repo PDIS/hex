@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+  --backgroundColor: #E4E2CF;
+  --textColor: #272623;
+  --secondaryTextColor: #404040;
+  --mutedTextColor: #707070;
+  --backgroundColorLayer1: #d5d3c1;
+  --backgroundColorLayer2: #cac8b0;
+  --linkColor: #23304e;
+  --borderColor: #ccc;
+  --primaryColor: #262927;
+  --dangerColor: #CC3100;
+  --warningColor: #ff6600;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --backgroundColor: #272623;
+    --textColor: #E4E2CF;
+    --secondaryTextColor: #cfd5d5;
+    --mutedTextColor: #b4b6b8;
+    --backgroundColorLayer1: #373633;
+    --backgroundColorLayer2: #473633;
+    --linkColor: #2a8be5;
+    --borderColor: #414141;
+    --primaryColor: #ffffff;
+    --dangerColor: #ff7f7f;
+    --warningColor: #ff6600;
+  }
+}
+
+@font-face {
+  font-family: Overpass;
+  src: url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap');
+  unicode-range: U+00-FF, U+980-9FF;
+    
+}
+
+body {
+  font-family: 'Overpass', 'PingFang TC','Noto Sans TC', sans-serif;
+  font-stretch: 105%;
+}
+
+.nested-markdown td, .nested-markdown th {
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid var(--borderColor);
+  padding: 0.5em;
+  width: 1%;
+}
+
+.nested-markdown table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.nested-markdown ul {
+  margin: 0;
+  padding: 0 0 0 1em;
+  list-style-position: inside;
+}

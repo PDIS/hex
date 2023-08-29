@@ -1,0 +1,13 @@
+---
+layout: main.liquid
+title: HEX
+---
+
+<ul class="list">
+{% for entry in collections.post %}
+  <li>
+    <h3><a href="{{ entry.url }}">{{ entry.data.title }}</a></h3>
+    {{ entry.excerpt }}
+  </li>
+{% endfor %}
+</ul>

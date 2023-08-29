@@ -1,0 +1,14 @@
+{
+  "name": "hex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "PDIS <all@pdis.nat.gov.tw>",
+  "license": "CC0",
+  "scripts": {
+    "serve": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
