@@ -3,6 +3,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
-    excerpt_separator: "!---" // default is "---", in conflict with markdown
+    excerpt_alias: 'excerpt',
+    excerpt_separator: "<!-- 文摘 -->"
   })
+
 }

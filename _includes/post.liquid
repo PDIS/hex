@@ -3,11 +3,12 @@ layout: main.liquid
 ---
 
 <article class="nested-copy-separator nested-markdown">
-<h2 class="f3 fw6 mt0">{{ title }}</h2>
-<div class="">
-  <a href="">{{ author }}</a>．
-  {{ date | date: "%Y 年 %m 月 %d 日" }}
-</div>
+  <div class="f4 fw8 mb3">
+    <span aria-hidden="true" class="mr1">&times;</span>
+    作者 {% for author in authors %}<a>{{ author }}</a> {% endfor %}．
+    {{ date | date: "%Y 年 %m 月 %d 日" }}
+  </div>
 
-{{ content }}
+  <h2 class="f2 mb4 fw6 mt0">{{ title }}</h2>
+  {{ content }}
 </article>

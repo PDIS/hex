@@ -30,16 +30,8 @@ body {
   }
 }
 
-@font-face {
-  font-family: Overpass;
-  src: url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap');
-  unicode-range: U+00-FF, U+980-9FF;
-    
-}
-
 body {
   font-family: 'Overpass', 'PingFang TC','Noto Sans TC', sans-serif;
-  font-stretch: 105%;
 }
 
 .nested-markdown td, .nested-markdown th {

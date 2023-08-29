@@ -3,11 +3,16 @@ layout: main.liquid
 title: HEX
 ---
 
+<h2 class="f4 fw8 mb3">
+  <span aria-hidden="true" class="mr1">&times;</span>
+  文章列表
+</h2>
+
 <ul class="list">
-{% for entry in collections.post %}
+{% for post in collections.post %}
   <li>
-    <h3><a href="{{ entry.url }}">{{ entry.data.title }}</a></h3>
-    {{ entry.excerpt }}
+    <h3 class="f4 mb2"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+    {{ post.data.excerpt }}
   </li>
 {% endfor %}
 </ul>
