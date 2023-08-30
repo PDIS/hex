@@ -9,7 +9,7 @@ body {
   --backgroundColorLayer2: #cac8b0;
   --linkColor: #1038c5;
   --borderColor: #a19f8c;
-  --primaryColor: #262927;
+  --primaryColor: #1a1a17;
   --dangerColor: #CC3100;
   --warningColor: #ff6600;
 }
@@ -22,9 +22,9 @@ body {
     --mutedTextColor: #b4b6b8;
     --backgroundColorLayer1: #373633;
     --backgroundColorLayer2: #473633;
-    --linkColor: #2a8be5;
-    --borderColor: #414141;
-    --primaryColor: #ffffff;
+    --linkColor: #7be7ff;
+    --borderColor: #8b877c;
+    --primaryColor: #f7f4db;
     --dangerColor: #ff7f7f;
     --warningColor: #ff6600;
   }
@@ -34,8 +34,18 @@ body {
   font-family: 'Overpass', 'PingFang TC','Noto Sans TC', sans-serif;
 }
 
+.logo svg {
+  max-width: 96%;
+  width: 24em;
+}
+
 .logo path[fill] {
-  fill: var(--textColor);
+  fill: var(--primaryColor);
+}
+
+.footer, .header {
+  background: transparent;
+  border-color: var(--primaryColor);
 }
 
 .nested-markdown td, .nested-markdown th {
