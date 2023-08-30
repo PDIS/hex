@@ -2,13 +2,17 @@
   "name": "hex",
   "version": "1.0.0",
   "main": "index.js",
+  "engine": {
+    "node": "18.x"
+  },
   "author": "PDIS <all@pdis.nat.gov.tw>",
-  "license": "CC0",
+  "license": "CC0-1.0",
   "scripts": {
     "serve": "eleventy --serve",
     "build": "eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.0"
   }
 }

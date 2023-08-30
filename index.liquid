@@ -8,11 +8,17 @@ title: HEX
   文章列表
 </h2>
 
-<ul class="list">
+<div class="nested-list-reset">
+<ul class="gap4 flex flex-column">
 {% for post in collections.post %}
-  <li>
-    <h3 class="f4 mb2"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+  <li class="bb pv4">
+    <div class="mb3">
+      <h3 class="f4"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+      作者 {% for author in post.data.authors %}<a class="fw6">{{ author }}</a> {% endfor %}．
+      {{ post.data.date | date: "%Y 年 %m 月 %d 日" }}
+    </div>
     {{ post.data.excerpt }}
   </li>
 {% endfor %}
 </ul>
+</div>
