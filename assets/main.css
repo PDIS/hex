@@ -12,6 +12,7 @@ body {
   --primaryColor: #1a1a17;
   --dangerColor: #CC3100;
   --warningColor: #ff6600;
+  --highlightColor: #f2fe6f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,6 +28,7 @@ body {
     --primaryColor: #f7f4db;
     --dangerColor: #ff7f7f;
     --warningColor: #ff6600;
+    --highlightColor: #7a328b;
   }
 }
 
