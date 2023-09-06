@@ -3,7 +3,7 @@ layout: post.liquid
 title: 社群媒體圖片替代文字指南
 date: 2023-07-31
 authors: 
-  - jedi
+  - 林克寰
 tags: 
   - post
   - 親和力
@@ -91,7 +91,39 @@ PDIS 認為不要因為擔心不夠好而駐足不前，相反地，所有的不
 
 ### 實例解說
 
+為了協助公務部門的社群媒體負責人更具體地理解這些指引，PDIS 把社群媒體可能使用的圖片分類整理，用實際的例子解釋。每個實例都包含「替代文字範例」及「解析討論」兩個部分，並且附上這個實例的線上連結，幫助指引讀者能夠返回社群媒體平台，確認圖片所在的情境脈絡。
 
+舉例來說，在「文字畫面擷圖」這類的圖片，PDIS 以唐鳳部長[這則推文](https://twitter.com/audreyt/status/1660092613066883073)提供建議：
+
+> #### 替代文字範例
+> > 台灣就業金卡 (TGC) 網頁畫面截圖，列出就業金卡的其他資格條件：<br><br>2. Previously or currently holding a position in a digital economy-related industry or field in another country or in Taiwan with a most recent monthly salary of at least NT$160,000.<br><br>3. The person has graduated with a doctorate from one of the top 500 universities listed in the most recent QS World University Rankings, Times Higher Education World University Rankings, or U.S. News & World Report Rankings.<br><br>4. Those with expertise in the products or services required in the digital economy-related industries or fields, have obtained a doctoral degree in related fields at a domestic or foreign university, and have either received domestic or foreign awards recognized by the Ministry of Digital Affairs, or have more than four years of work experience in related fields.<br><br>網頁列出的各項資格條件，皆可展開揭露詳細的辦理方式。
+> #### 解析討論
+> 這張圖片是以「引用線上資訊」的方式，補充[推文內容](https://twitter.com/audreyt/status/1660092613066883073)做出答覆。除了在替代文字裡提供詳實文字，還有幾個重點：
+> - 要寫出這是 TGC 網頁的畫面截圖。
+> - 要描述各項資格條件在網頁上還有更詳細的資訊。雖然圖中第 2. 項已經處於展開的狀態，且可見到應備齊文件的資訊，但這個視覺線索只是提示「有更詳細的資訊，可以到網頁上查詢」，不必在替代文字中連這些都抄寫出來。
+> - 網頁畫面截圖中，可以看到有些字詞因為排版因素加上連字號分成兩行 (uni-versity)，在替代文字裡可以組合回來 (university)，以利閱讀或報讀。
+
+目前在 PDIS 製作提供的指南中，包含下列這幾類的圖片情境：
+
+1. 純文字圖片
+2. 文字畫面擷圖
+3. 文字圖卡
+4. 照片（含翻拍）
+5. 資訊圖表及表格
+6. 繪圖
+
+每一種情境類別還可能再細分出不同的編排類型，例如「照片（含翻拍）」細分成：
+
+1. 非正面人物情境照片
+2. 官方直播畫面
+3. 會議全貌照片集
+4. 兩人合照
+5. 多人合照
+6. 多人合照及相似照片集
+7. 翻拍電腦畫面
+8. 景物照片
+
+藉由這樣的整理及實例討論，PDIS 希望能夠把這些指引付諸現實，做出品質更好的社群媒體內容。
 
 ### 輔助工具
 
