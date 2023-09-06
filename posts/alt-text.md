@@ -3,7 +3,7 @@ layout: post.liquid
 title: 社群媒體圖片替代文字指南
 date: 2023-07-31
 authors: 
-  - 林克寰
+  - jedi
 tags: 
   - post
   - 親和力
